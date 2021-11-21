@@ -4,6 +4,9 @@
     <Filter Include="Source">
       <UniqueIdentifier>{56EB95D1-428D-C0A7-2B48-D4FB178947F8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\CircleScene">
+      <UniqueIdentifier>{A5FD22F5-91E1-E34A-FA41-DE9DE644CECC}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source\Filesystem">
       <UniqueIdentifier>{CA5F71E0-3676-6F76-7FED-FA97EB4240FE}</UniqueIdentifier>
     </Filter>
@@ -45,6 +48,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Source\CircleScene\Circle.h">
+      <Filter>Source\CircleScene</Filter>
+    </ClInclude>
     <ClInclude Include="Source\Filesystem\File.h">
       <Filter>Source\Filesystem</Filter>
     </ClInclude>
@@ -1155,9 +1161,11 @@
     <ClInclude Include="Vendor\stb_image\std_image.h">
       <Filter>Vendor\stb_image</Filter>
     </ClInclude>
-    <ClInclude Include="Source\CircleScene\Circle.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Source\CircleScene\Circle.cpp">
+      <Filter>Source\CircleScene</Filter>
+    </ClCompile>
     <ClCompile Include="Source\GUI\ImGuiBuild.cpp">
       <Filter>Source\GUI</Filter>
     </ClCompile>
@@ -1179,10 +1187,5 @@
     <ClCompile Include="Vendor\stb_image\stb_image.cpp">
       <Filter>Vendor\stb_image</Filter>
     </ClCompile>
-    <ClCompile Include="Source\CircleScene\Circle.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Shaders\3DCube_vertex.glsl" />
-    <None Include="Resources\Shaders\3DCube_fragment.glsl" />
   </ItemGroup>
 </Project>
