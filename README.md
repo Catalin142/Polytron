@@ -68,6 +68,6 @@ in afara de C++ am folosit openGL cu ajutorul acestor librarii:
 source code-ul se afla in varful paginii
 <br>
 Pentru a genera proiectul, porneste `GenerateProject.bat`
-
+<br>
 # Screenshot
 ![ss1](Screenshots/Screenshot.png)
