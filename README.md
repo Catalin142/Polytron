@@ -23,11 +23,7 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
+      <a href="#ghid-de-instalare">Ghid de instalare</a>
     </li>
     <li><a href="#screenshot">Screenshots</a></li>
   </ol>
@@ -64,6 +60,14 @@ in afara de C++ am folosit openGL cu ajutorul acestor librarii:
 * [stb_image](https://github.com/nothings/stb)
 * [glm](https://github.com/g-truc/glm)
 * [Dear ImGui](https://github.com/ocornut/imgui)
+
+<br>
+
+# Ghid de instalare
+
+source code-ul se afla in varful paginii
+<br>
+Pentru a genera proiectul, porneste `GenerateProject.bat`
 
 # Screenshot
 ![ss1](Screenshots/Screenshot.png)
