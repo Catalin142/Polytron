@@ -82,11 +82,3 @@ int main()
 
 	GUI::onDetach();
 }
-
-/*
-TODO:
-Tangenta
-Numele echipei (spargem_capete)
-
-
-*/
